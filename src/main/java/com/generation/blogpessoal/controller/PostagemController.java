@@ -1,4 +1,4 @@
-package com.generation.blgpessoal.controller;
+package com.generation.blogpessoal.controller;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.blgpessoal.model.Postagem;
-import com.generation.blgpessoal.repository.PostagemRepository;
-import com.generation.blgpessoal.repository.TemaRepository;
+import com.generation.blogpessoal.model.Postagem;
+import com.generation.blogpessoal.repository.PostagemRepository;
+import com.generation.blogpessoal.repository.TemaRepository;
 
 
 

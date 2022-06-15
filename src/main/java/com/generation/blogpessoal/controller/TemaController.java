@@ -1,4 +1,4 @@
-package com.generation.blgpessoal.controller;
+package com.generation.blogpessoal.controller;
 
 import java.util.List;
 
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.blgpessoal.model.Tema;
-import com.generation.blgpessoal.repository.TemaRepository;
+import com.generation.blogpessoal.model.Tema;
+import com.generation.blogpessoal.repository.TemaRepository;
 
 @RestController
 @RequestMapping("/temas")

@@ -1,4 +1,4 @@
-package com.generation.blgpessoal.controller;
+package com.generation.blogpessoal.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.generation.blgpessoal.model.Usuario;
-import com.generation.blgpessoal.model.UsuarioLogin;
-import com.generation.blgpessoal.repository.UsuarioRepository;
-import com.generation.blgpessoal.service.UsuarioService;
+import com.generation.blogpessoal.model.Usuario;
+import com.generation.blogpessoal.model.UsuarioLogin;
+import com.generation.blogpessoal.repository.UsuarioRepository;
+import com.generation.blogpessoal.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")

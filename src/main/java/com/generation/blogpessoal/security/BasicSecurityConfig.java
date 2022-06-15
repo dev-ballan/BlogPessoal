@@ -1,7 +1,8 @@
-package com.generation.blgpessoal.security;
+package com.generation.blogpessoal.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -34,6 +35,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
  *  A annotation @EnableWebSecurity: habilita a configuração de segurança padrão 
  *  do Spring Security na nossa api.
  */
+@Configuration
 @SuppressWarnings("deprecation")
 @EnableWebSecurity
 public class BasicSecurityConfig extends WebSecurityConfigurerAdapter {

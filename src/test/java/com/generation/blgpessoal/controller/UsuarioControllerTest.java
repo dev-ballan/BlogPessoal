@@ -20,9 +20,9 @@ import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import com.generation.blgpessoal.model.Usuario;
-import com.generation.blgpessoal.repository.UsuarioRepository;
-import com.generation.blgpessoal.service.UsuarioService;
+import com.generation.blogpessoal.model.Usuario;
+import com.generation.blogpessoal.repository.UsuarioRepository;
+import com.generation.blogpessoal.service.UsuarioService;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)

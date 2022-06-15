@@ -1,4 +1,4 @@
-package com.generation.blgpessoal.configuration;
+package com.generation.blogpessoal.configuration;
 
 import org.springdoc.core.customizers.OpenApiCustomiser;
 import org.springframework.context.annotation.Bean;
@@ -26,7 +26,7 @@ public class SwaggerConfig {
 					.name("Generation Brasil")
 					.url("https://brazil.generation.org/"))
 				.contact(new Contact()
-					.name("Allan Luís Baad")
+					.name("Allan Baad")
 					.url("https://www.linkedin.com/in/baadallan/")
 					.email("munisallan@gmail.com")))
 				.externalDocs(new ExternalDocumentation()

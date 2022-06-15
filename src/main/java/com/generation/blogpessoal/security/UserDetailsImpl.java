@@ -1,13 +1,13 @@
-package com.generation.blgpessoal.security;
+package com.generation.blogpessoal.security;
 
 
 import java.util.Collection;
 import java.util.List;
 
-import com.generation.blgpessoal.model.Usuario;
-
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import com.generation.blogpessoal.model.Usuario;
 
 public class UserDetailsImpl implements UserDetails {
 	
